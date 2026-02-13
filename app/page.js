@@ -70,7 +70,7 @@ export default function Home() {
 
       {/* CARD */}
       <Box
-      pos={'relative'}
+        pos={"relative"}
         p={{ base: 4, md: 8 }}
         bg="white"
         w={{ base: "94%", md: "92%", lg: "70%" }}
@@ -130,12 +130,7 @@ export default function Home() {
         </VStack>
 
         {/* CTA BUTTONS */}
-        <Flex
-          mt={10}
-          gap={4}
-          direction={{ base: "row", md: "row" }}
-          w="full"
-        >
+        <Flex mt={10} gap={4} direction={{ base: "row", md: "row" }} w="full">
           <Button
             size="lg"
             w={{ base: "100%", md: "fit-content" }}
@@ -251,6 +246,17 @@ export default function Home() {
             </VStack>
           </Flex>
         </Box>
+        <Text mt={4} fontSize="sm" color="gray.500" textAlign="center">
+          Website powered by{" "}
+          <a
+            href="https://zuratech.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#504dff", fontWeight: 600 }}
+          >
+            Zura Tech
+          </a>
+        </Text>
 
         {/* DESKTOP MODAL */}
         <Modal isOpen={isOpen} onClose={onClose} isCentered size="md">

@@ -28,7 +28,7 @@ export const metadata = {
     siteName: "Help Sarika",
     images: [
       {
-        url: "https://cdn-icons-png.flaticon.com/512/4590/4590212.png", // 👈 your preview image
+        url: "https://res.cloudinary.com/dddnxiqpq/image/upload/v1770964663/d1a55dbd-a1db-498e-ab39-fa5c5a1d31ee.webp", // 👈 your preview image
         width: 1200,
         height: 630,
         alt: "Help Sarika",
@@ -40,7 +40,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Help Sarika",
     description: "Help her to fight with cancer",
-    images: ["https://cdn-icons-png.flaticon.com/512/4590/4590212.png"],
+    images: ["https://res.cloudinary.com/dddnxiqpq/image/upload/v1770964663/d1a55dbd-a1db-498e-ab39-fa5c5a1d31ee.webp"],
   },
 };
 
