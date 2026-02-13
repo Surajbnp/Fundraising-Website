@@ -247,15 +247,16 @@ export default function Home() {
           </Flex>
         </Box>
         <Text mt={4} fontSize="sm" color="gray.500" textAlign="center">
-          Website powered by{" "}
+          This website is built and maintained by
           <a
             href="https://zuratech.com"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#504dff", fontWeight: 600 }}
+            style={{ color: "#504dff", fontWeight: 600, padding : 4 }}
           >
             Zura Tech
           </a>
+          , as a contribution 💗 to support Sarika’s treatment.
         </Text>
 
         {/* DESKTOP MODAL */}
