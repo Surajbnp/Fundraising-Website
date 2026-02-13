@@ -141,6 +141,7 @@ export default function Home() {
             w={{ base: "100%", md: "fit-content" }}
             colorScheme="pink"
             borderRadius="full"
+            fontSize={{ base: "14px", md: "18px" }}
             px={8}
             fontWeight={400}
             onClick={handleDonateClick}
@@ -154,6 +155,7 @@ export default function Home() {
             variant="outline"
             colorScheme="pink"
             borderRadius="full"
+            fontSize={{ base: "14px", md: "18px" }}
             px={8}
             fontWeight={400}
             onClick={handleMilaap}
@@ -251,7 +253,12 @@ export default function Home() {
             </VStack>
           </Flex>
         </Box>
-        <Text mt={4} fontSize={{base : "12px", md : "14px"}} color="gray.500" textAlign="center">
+        <Text
+          mt={4}
+          fontSize={{ base: "12px", md: "14px" }}
+          color="gray.500"
+          textAlign="center"
+        >
           This website is built and maintained by
           <a
             href="https://zuratech.com"
