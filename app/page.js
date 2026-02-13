@@ -251,7 +251,7 @@ export default function Home() {
             </VStack>
           </Flex>
         </Box>
-        <Text mt={4} fontSize="sm" color="gray.500" textAlign="center">
+        <Text mt={4} fontSize={{base : "12px", md : "14px"}} color="gray.500" textAlign="center">
           This website is built and maintained by
           <a
             href="https://zuratech.com"
