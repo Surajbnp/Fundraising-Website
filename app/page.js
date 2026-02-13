@@ -21,6 +21,7 @@ import { CheckIcon, CopyIcon } from "@chakra-ui/icons";
 import { FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
 import SimpleCarousel from "./components/Carousel";
+import { IoLocationOutline } from "react-icons/io5";
 
 export default function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -98,15 +99,18 @@ export default function Home() {
                 textTransform="uppercase"
                 fontSize={{ base: "22px", md: "34px" }}
               >
-                Help Sarika
+                Sarika Sahu
               </Text>
-              <Text
-                fontWeight={400}
-                color="gray.600"
-                fontSize={{ base: "14px", md: "16px" }}
-              >
-                From Ranchi, Jharkhand
-              </Text>
+              <Flex align={"center"} gap={1}>
+                <IoLocationOutline color="red" />
+                <Text
+                  fontWeight={400}
+                  color="gray.600"
+                  fontSize={{ base: "14px", md: "16px" }}
+                >
+                  Ranchi, Jharkhand
+                </Text>
+              </Flex>
             </Box>
           </Flex>
         </VStack>
@@ -119,9 +123,10 @@ export default function Home() {
 
           <Text
             maxW="700px"
-            fontWeight={400}
+            fontWeight={300}
             fontSize={{ base: "14px", md: "18px" }}
             color="gray.700"
+            letterSpacing={1.2}
           >
             Sarika Sahu is battling last-stage cancer. Your contribution will
             help with treatment, medicines, and care. Even a small amount brings
@@ -252,7 +257,7 @@ export default function Home() {
             href="https://zuratech.com"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#504dff", fontWeight: 600, padding : 4 }}
+            style={{ color: "#504dff", fontWeight: 600, padding: 4 }}
           >
             Zura Tech
           </a>
