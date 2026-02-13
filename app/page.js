@@ -241,7 +241,7 @@ export default function Home() {
                 w="full"
                 onClick={() => {
                   const msg = encodeURIComponent(
-                    "Please help Sarika fight cancer. Donate here: https://your-site.vercel.app",
+                    "Please help Sarika fight cancer. Donate here: https://savesarika.online",
                   );
                   window.open(`https://wa.me/?text=${msg}`, "_blank");
                 }}
